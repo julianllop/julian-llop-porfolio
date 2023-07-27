@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    height: 600px;
+    /* border: solid 1px red; */
+}
+
+.skills {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 50px;
+    background: no-repeat center/90% url("../../img/pm-standard-gradient.avif");
+    background-color: transparent;
+}
+.skills h1 {
+    padding-left: 90px;
+    margin: 0;
+    font-size: 2em;
+}
+
+.skillsCont {
+    padding-left: 65px;
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.skillsCont img {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin: 0 3% 0 3%;
+}
+
+.html {
+    background-color: #ffeabe;
+    border-radius: 10px;
+    border: solid 1px #ffdd95;
+}
+.css {
+    background-color: #e0eeff;
+    border-radius: 10px;
+    border: solid 1px #95c1ff;
+}
+.js {
+    background-color: #fffec4;
+    border-radius: 10px;
+    border: solid 1px #fff195;
+}
+.react {
+    background-color: #dbfffb;
+    border-radius: 10px;
+    border: solid 1px #95eaff;
+}
+.MUI {
+    background-color: #e1e9ff;
+    border-radius: 10px;
+    border: solid 1px #8bb8ff;
+}
+.postgre {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    border: solid 1px #b3b3b3;
+}
+.node {
+    background-color: #d1ffd2;
+    border-radius: 10px;
+    border: solid 1px #329446c5;
+}
+.typescript {
+    background-color: #e1efff;
+    border-radius: 10px;
+    border: solid 1px #3f60c4ae;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
+.about {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    width: 50%;
+    height: 500px;
+    background-color: transparent;
+    /* border: solid 1px red; */
+
+}
+
+.profile {
+    border-radius: 50%;
+    width: 250px;
+    box-shadow: 0px 2px 2px 0px #03030352;
+}
+
+.imgCont {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    background: no-repeat center/110% url("../../img/pm-standard-gradient.avif");
+    background-color: transparent;
+}
+
+.aboutText {
+    color: #030303;
+    text-align: left;
+    width: 50%;
+    font-weight: 600;
+}
+.aboutText p {
+    width: 80%;
+    color: #030303a2;
+}

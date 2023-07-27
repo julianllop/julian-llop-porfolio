@@ -1,0 +1,12 @@
+body{
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+}
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
