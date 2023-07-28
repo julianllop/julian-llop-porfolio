@@ -9,4 +9,5 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 30px;
+    padding-bottom: 750px;
 }

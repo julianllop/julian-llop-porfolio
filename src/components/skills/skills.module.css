@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
-
+/* 
 .container {
     display: flex;
     justify-content: center;
     align-content: center;
     width: 50%;
     height: 600px;
-    /* border: solid 1px red; */
 }
 
 .skills {
@@ -81,4 +80,171 @@
     background-color: #e1efff;
     border-radius: 10px;
     border: solid 1px #3f60c4ae;
+} */
+
+@media screen and (min-width: 280px) {
+    .h1 {
+        margin: 0;
+        padding: 0;
+        align-self: center;
+        background-image: linear-gradient(
+            90deg,
+            rgba(63, 94, 251, 1) 0%,
+            rgba(238, 23, 130, 1) 100%
+        );
+        background-clip: text;
+        color: transparent;
+        font-weight: 800;
+        font-size: 2em;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 350px;
+        margin-top: 350px;
+    }
+
+    .skills {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 70%;
+        gap: 50px;
+        background: no-repeat center/100%
+            url("../../img/pm-standard-gradient.avif");
+        background-color: transparent;
+    }
+
+    .skillsCont {
+        /* padding-left: 65px; */
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .skillsCont img {
+        width: 50px;
+        height: 50px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        /* margin: 0 3% 0 3%; */
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .html {
+        background-color: #ffeabe;
+        border-radius: 10px;
+        border: solid 1px #ffdd95;
+    }
+    .css {
+        background-color: #e0eeff;
+        border-radius: 10px;
+        border: solid 1px #95c1ff;
+    }
+    .js {
+        background-color: #fffec4;
+        border-radius: 10px;
+        border: solid 1px #fff195;
+    }
+    .react {
+        background-color: #dbfffb;
+        border-radius: 10px;
+        border: solid 1px #95eaff;
+    }
+    .MUI {
+        background-color: #e1e9ff;
+        border-radius: 10px;
+        border: solid 1px #8bb8ff;
+    }
+    .postgre {
+        background-color: #ebebeb;
+        border-radius: 10px;
+        border: solid 1px #b3b3b3;
+    }
+    .node {
+        background-color: #d1ffd2;
+        border-radius: 10px;
+        border: solid 1px #329446c5;
+    }
+    .typescript {
+        background-color: #e1efff;
+        border-radius: 10px;
+        border: solid 1px #3f60c4ae;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .skillsCont img {
+        width: 100px;
+        height: 100px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        /* margin: 0 3% 0 3%; */
+    }
+}
+@media screen and (min-width: 800px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 550px;
+        margin-top: 250px;
+    }
+
+    .skillsCont {
+        gap: 40px;
+    }
+
+    .skillsCont img {
+        width: 100px;
+        height: 100px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+
+    .h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 750px;
+        margin-top: 250px;
+    }
+
+    .skillsCont {
+        gap: 80px;
+    }
+
+
+    .skillsCont img {
+        width: 150px;
+        height: 150px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        /* margin: 0 3% 0 3%; */
+    }
+
+    .h1 {
+        font-size: 3em;
+    }
 }

@@ -13,24 +13,28 @@ const Skills = () => {
     return (
         <section className={style.container}>
             <div className={style.skills}>
-                <h1>Skills</h1>
+                <h1 className={style.h1}>SKILLS</h1>
                 <div className={style.skillsCont}>
-                    <img src={react} alt="react" className={style.react} />
-                    <img src={js} alt="js" className={style.js} />
-                    <img
-                        src={typescript}
-                        alt="typescript"
-                        className={style.typescript}
-                    />
-                    <img src={html} alt="html" className={style.html} />
-                    <img src={css} alt="css" className={style.css} />
-                    <img src={MUI} alt="MUI" className={style.MUI} />
-                    <img
-                        src={postgre}
-                        alt="postgre"
-                        className={style.postgre}
-                    />
-                    <img src={node} alt="node" className={style.node} />
+                    <div className={style.row}>
+                        <img src={react} alt="react" className={style.react} />
+                        <img src={js} alt="js" className={style.js} />
+                        <img src={node} alt="node" className={style.node} />
+                        <img
+                            src={postgre}
+                            alt="postgre"
+                            className={style.postgre}
+                        />
+                    </div>
+                    <div className={style.row}>
+                        <img
+                            src={typescript}
+                            alt="typescript"
+                            className={style.typescript}
+                        />
+                        <img src={html} alt="html" className={style.html} />
+                        <img src={css} alt="css" className={style.css} />
+                        <img src={MUI} alt="MUI" className={style.MUI} />
+                    </div>
                 </div>
             </div>
         </section>

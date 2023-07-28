@@ -6,9 +6,9 @@ import recipes from "../../img/projects-img/recipes.jpg";
 const Projects = () => {
     return (
         <div className={style.projects}>
-            <h1>Projects</h1>
-            <section className={style.timer}>
-                <div className={style.timerImgDiv}>
+            <h1 className={style.h1}>PROJECTS</h1>
+            <section className={style.project1}>
+                <div className={style.projectImgDiv}>
                     <a
                         href="https://recipes-api-jl.onrender.com"
                         target="_blank"
@@ -17,7 +17,7 @@ const Projects = () => {
                         <img
                             src={recipes}
                             alt="countdown_timer"
-                            className={style.timerImg}
+                            className={style.projectImg}
                         />
                     </a>
                 </div>
@@ -58,7 +58,21 @@ const Projects = () => {
                 </div>
             </section>
 
-            <section className={style.timer}>
+            <section className={style.project2}>
+                <div className={style.projectImgDiv}>
+                    <a
+                        href="https://julianllop.github.io/countdown_timer/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        {" "}
+                        <img
+                            src={timer}
+                            alt="countdown_timer"
+                            className={style.projectImg}
+                        />
+                    </a>
+                </div>
                 <div className={style.textAndBtnL}>
                     <div className={style.projectTextCont}>
                         <h5 className={style.dev}>Frontend</h5>
@@ -89,20 +103,6 @@ const Projects = () => {
                             Visit site
                         </a>
                     </div>
-                </div>
-                <div className={style.timerImgDiv}>
-                    <a
-                        href="https://julianllop.github.io/countdown_timer/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        {" "}
-                        <img
-                            src={timer}
-                            alt="countdown_timer"
-                            className={style.timerImg}
-                        />
-                    </a>
                 </div>
             </section>
         </div>

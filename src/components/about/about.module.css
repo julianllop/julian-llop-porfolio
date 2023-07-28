@@ -9,8 +9,6 @@
     width: 50%;
     height: 500px;
     background-color: transparent;
-    /* border: solid 1px red; */
-
 }
 
 .profile {
@@ -24,7 +22,7 @@
     align-content: center;
     justify-content: center;
     width: 50%;
-    background: no-repeat center/110% url("../../img/pm-standard-gradient.avif");
+    background: no-repeat center/100% url("../../img/pm-standard-gradient.avif");
     background-color: transparent;
 }
 
@@ -37,4 +35,157 @@
 .aboutText p {
     width: 80%;
     color: #030303a2;
+}
+
+
+@media screen and (min-width: 280px) {
+
+    .h1 {
+        margin: 0;
+        padding: 0;
+        align-self: center;
+        background-image: linear-gradient(
+            90deg,
+            rgba(63, 94, 251, 1) 0%,
+            rgba(238, 23, 130, 1) 100%
+        );
+        background-clip: text;
+        color: transparent;
+        font-weight: 800;
+    }
+
+    .about {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        height: 350px;
+        background-color: transparent;
+    }
+
+    .profile {
+        border-radius: 50%;
+        width: 250px;
+        box-shadow: 0px 2px 2px 0px #03030352;
+    }
+
+    .imgCont {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 60%;
+        background: no-repeat center/100%
+            url("../../img/pm-standard-gradient.avif");
+        background-color: transparent;
+    }
+
+    .aboutText {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        color: #030303;
+        /* text-align: left; */
+        width: 70%;
+        font-weight: 600;
+    }
+    .aboutText p {
+        width: 100%;
+        color: #030303a2;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .h1 {
+        margin: 0;
+        padding: 0;
+        align-self: flex-start;
+        background-image: linear-gradient(
+            90deg,
+            rgba(63, 94, 251, 1) 0%,
+            rgba(238, 23, 130, 1) 100%
+        );
+        background-clip: text;
+        color: transparent;
+        font-weight: 800;
+        font-size: 3em;
+    }
+
+    .imgCont {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 60%;
+        background: no-repeat center/100%
+            url("../../img/pm-standard-gradient.avif");
+        background-color: transparent;
+    }
+
+    .about {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        /* gap: 50px; */
+        width: 80%;
+        height: 350px;
+        background-color: transparent;
+
+        .aboutText p {
+            width: 100%;
+            color: #030303a2;
+        }
+    }
+   
+}
+
+@media screen and (min-width: 1000px) {
+
+    .h1 {
+        margin: 0;
+        padding: 0;
+        align-self: flex-start;
+        background-image: linear-gradient(
+            90deg,
+            rgba(63, 94, 251, 1) 0%,
+            rgba(238, 23, 130, 1) 100%
+        );
+        background-clip: text;
+        color: transparent;
+        font-weight: 800;
+    }
+
+    .about {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        /* gap: 50px; */
+        width: 70%;
+        height: 350px;
+        background-color: transparent;
+
+        .aboutText p {
+            width: 80%;
+            color: #030303a2;
+        }
+    }
+
+    .imgCont {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 60%;
+        background: no-repeat center/100%
+            url("../../img/pm-standard-gradient.avif");
+        background-color: transparent;
+    }
+   
 }

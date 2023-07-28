@@ -14,7 +14,7 @@ const About = () => {
             </div>
 
             <div className={style.aboutText}>
-                <h1>About me</h1>
+                <h1 className={style.h1}>ABOUT ME</h1>
                 <p>
                     Fullstack Developer, a Henry graduate, excited to offer my
                     professional services to those in need. With expertise in
