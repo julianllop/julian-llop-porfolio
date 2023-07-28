@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
 
 .presentation {
-    /* margin-top: 5%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,12 +80,37 @@
         background-color: transparent;
     }
 
+    .logoCont{
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        width: 300px;
+        height: 250px;
+    }
+
     .logo {
         font-family: "Playfair Display SC", serif;
         font-size: 10em;
         color: #030303;
         margin: 0;
         padding: 0;
+        transform: scale(1);
+        animation: animateTitle 3s infinite;
+    }
+
+    @keyframes animateTitle {
+        0% {
+            color: #030303;
+            font-size: 10em;
+        }
+        50% {
+            color: #606060;
+            font-size: 11em;
+        }
+        100% {
+            color: #030303;
+            font-size: 10em;
+        }
     }
 
     .title {
@@ -99,8 +123,46 @@
     }
 }
 
-
 @media screen and (min-width: 1000px) {
+
+    .logoCont{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 400px;
+        height: 350px;
+    }
+
+    .logo {
+        font-family: "Playfair Display SC", serif;
+        font-size: 15em;
+        color: #030303;
+        margin: 0;
+        padding: 0;
+        transform: scale(1);
+        animation: animateTitle 3s infinite;
+    }
+
+    @keyframes animateTitle {
+        0% {
+            color: #030303;
+            font-size: 15em;
+        }
+        50% {
+            color: #606060;
+            font-size: 16em;
+        }
+        100% {
+            color: #030303;
+            font-size: 15em;
+        }
+    }
+ 
+
+    .title {
+        font-size: 2em;
+    }
+
     .presentation {
         /* margin-top: 5%; */
         display: flex;
@@ -109,7 +171,7 @@
         justify-content: center;
         gap: 15px;
         width: 90%;
-        height: 700px;
+        height: 1000px;
         background: no-repeat center/60%
             url("../../img/pm-standard-gradient.avif");
         background-color: transparent;

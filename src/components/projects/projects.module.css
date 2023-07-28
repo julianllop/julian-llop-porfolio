@@ -271,6 +271,20 @@
         border: solid 1px #ee1782;
         border-radius: 10px;
     }
+
+    .code:hover {
+        background-color: #ee178226;
+        border-radius: 10px;
+        transform: scale(1.1);
+    }
+
+    .site:hover {
+        background-color: #ee56a2;
+        border: solid 1px #ee56a2;
+
+        border-radius: 10px;
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -278,7 +292,7 @@
         padding-bottom: 220px;
     }
 
-    .h1{
+    .h1 {
         font-size: 3em;
     }
 }
