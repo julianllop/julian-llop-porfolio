@@ -7,9 +7,7 @@ const Presentation = () => {
     const logo = "{JL}";
     return (
         <div className={style.presentation}>
-            <div className={style.logoCont}>
-                <h1 className={style.logo}>{logo}</h1>
-            </div>
+            <h1 className={style.logo}>{logo}</h1>
             <div className={style.title}>
                 <h1>Julian Dario Llop</h1>
                 <h4>Fullstack Developer</h4>

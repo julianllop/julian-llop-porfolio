@@ -80,7 +80,7 @@
         background-color: transparent;
     }
 
-    .logoCont{
+    .logoCont {
         display: flex;
         justify-content: center;
         align-content: flex-start;
@@ -101,15 +101,12 @@
     @keyframes animateTitle {
         0% {
             color: #030303;
-            font-size: 10em;
         }
         50% {
-            color: #606060;
-            font-size: 11em;
+            color: #0303036c;
         }
         100% {
             color: #030303;
-            font-size: 10em;
         }
     }
 
@@ -124,8 +121,7 @@
 }
 
 @media screen and (min-width: 1000px) {
-
-    .logoCont{
+    .logoCont {
         display: flex;
         justify-content: center;
         align-content: center;
@@ -139,25 +135,8 @@
         color: #030303;
         margin: 0;
         padding: 0;
-        transform: scale(1);
-        animation: animateTitle 3s infinite;
     }
 
-    @keyframes animateTitle {
-        0% {
-            color: #030303;
-            font-size: 15em;
-        }
-        50% {
-            color: #606060;
-            font-size: 16em;
-        }
-        100% {
-            color: #030303;
-            font-size: 15em;
-        }
-    }
- 
 
     .title {
         font-size: 2em;
