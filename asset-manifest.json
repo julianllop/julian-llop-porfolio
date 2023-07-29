@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/julian-llop-porfolio/static/css/main.f01cf338.css",
+    "main.css": "/julian-llop-porfolio/static/css/main.e70bd0e6.css",
     "main.js": "/julian-llop-porfolio/static/js/main.37686d7d.js",
     "static/media/recipes.jpg": "/julian-llop-porfolio/static/media/recipes.01f7c5efc99ff8c8b947.jpg",
     "static/media/postgre.png": "/julian-llop-porfolio/static/media/postgre.34db80017b0b17bd5cb5.png",
@@ -9,11 +9,11 @@
     "static/media/pm-standard-gradient.avif": "/julian-llop-porfolio/static/media/pm-standard-gradient.e56345c59b39cc3a0383.avif",
     "static/media/timer.jpg": "/julian-llop-porfolio/static/media/timer.942ea3bfe7a15fb63b68.jpg",
     "index.html": "/julian-llop-porfolio/index.html",
-    "main.f01cf338.css.map": "/julian-llop-porfolio/static/css/main.f01cf338.css.map",
+    "main.e70bd0e6.css.map": "/julian-llop-porfolio/static/css/main.e70bd0e6.css.map",
     "main.37686d7d.js.map": "/julian-llop-porfolio/static/js/main.37686d7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f01cf338.css",
+    "static/css/main.e70bd0e6.css",
     "static/js/main.37686d7d.js"
   ]
 }
