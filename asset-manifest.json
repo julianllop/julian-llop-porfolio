@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/julian-llop-porfolio/static/css/main.e70bd0e6.css",
-    "main.js": "/julian-llop-porfolio/static/js/main.e83489f9.js",
-    "static/media/recipes.jpg": "/julian-llop-porfolio/static/media/recipes.40807bfb2aee848f075f.jpg",
+    "main.js": "/julian-llop-porfolio/static/js/main.008b913f.js",
+    "static/media/recipes.jpg": "/julian-llop-porfolio/static/media/recipes.c9a6ea2f6893bb80f889.jpg",
     "static/media/postgre.png": "/julian-llop-porfolio/static/media/postgre.34db80017b0b17bd5cb5.png",
     "static/media/react.png": "/julian-llop-porfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/profile2.jpg": "/julian-llop-porfolio/static/media/profile2.16c04aeae0437ddc567e.jpg",
@@ -10,10 +10,10 @@
     "static/media/timer.jpg": "/julian-llop-porfolio/static/media/timer.942ea3bfe7a15fb63b68.jpg",
     "index.html": "/julian-llop-porfolio/index.html",
     "main.e70bd0e6.css.map": "/julian-llop-porfolio/static/css/main.e70bd0e6.css.map",
-    "main.e83489f9.js.map": "/julian-llop-porfolio/static/js/main.e83489f9.js.map"
+    "main.008b913f.js.map": "/julian-llop-porfolio/static/js/main.008b913f.js.map"
   },
   "entrypoints": [
     "static/css/main.e70bd0e6.css",
-    "static/js/main.e83489f9.js"
+    "static/js/main.008b913f.js"
   ]
 }
