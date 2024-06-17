@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 280px) {
     .presentation {
-        padding-top: 250px;
+        padding-top: 150px;
         padding-bottom: 250px;
         display: flex;
         flex-direction: column;
@@ -136,8 +136,8 @@
     }
 
     .presentation {
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 100px;
+        padding-bottom: 220px;
         display: flex;
         flex-direction: column;
         align-items: center;

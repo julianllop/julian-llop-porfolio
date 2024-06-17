@@ -3,11 +3,13 @@ import style from "./app.module.css";
 import About from "./components/about/about";
 import Skills from "./components/skills/skills";
 import Projects from "./components/projects/projects";
+import BackToTop from "./components/backToTop/backToTop";
 
 function App() {
     return (
         <div className={style.App}>
             <div className={style.shapeBG}></div>
+            <BackToTop />
             <Presentation />
             <About />
             <Projects />

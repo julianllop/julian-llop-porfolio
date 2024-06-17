@@ -22,9 +22,7 @@ export default function Bata11() {
                 <div className={style.projectTextCont}>
                     <h5 className={style.dev}>Frontend</h5>
                     <div className={style.titleDiv}>
-                        <h1 className={style.projectTitle}>
-                            Hair salon eCommerce
-                        </h1>
+                        <h1 className={style.projectTitle}>Batallon 11</h1>
                         <h5>(Still on developement)</h5>
                     </div>
                     <p className={style.projectText}>

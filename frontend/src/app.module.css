@@ -23,35 +23,30 @@ body {
     );
     height: 95vh;
     width: 95%;
-    margin-top: 50px;
+    margin-top: 20px;
     z-index: -10;
     box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.229);
 }
 
 .App {
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 50px;
-    padding-bottom: 50px;
-    /* background: no-repeat center/100%
-        url("../src/img/pm-standard-gradient.avif"); */
+    /* padding-bottom: 50px; */
     height: 100vh;
     width: 100vw;
+    /* position: relative; */
+
     overflow-y: scroll;
-    overflow-x: hidden;
-    /* background-color: rgba(255, 205, 165, 0.033); */
-    z-index: -100;
+    /* overflow: hidden; */
 }
 
 @media screen and (max-width: 600px) {
     .shapeBG {
         border-radius: 80% 30% 80% 30% / 80% 30% 80% 30%;
-        z-index: -10;
-        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.229);
-
-        /* height: 100vh;
-        margin-top: 25px; */
     }
 }
