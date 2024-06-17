@@ -6,13 +6,11 @@ export default function HairSalon() {
     return (
         <section className={style.project1}>
             <div className={style.projectImgDiv}>
-                <a>
-                    <img
-                        src={hairSalon}
-                        alt="countdown_timer"
-                        className={style.projectImg}
-                    />
-                </a>
+                <img
+                    src={hairSalon}
+                    alt="countdown_timer"
+                    className={style.projectImgNotDeployed}
+                />
             </div>
             <div className={style.textAndBtnR}>
                 <div className={style.projectTextCont}>
@@ -45,7 +43,9 @@ export default function HairSalon() {
                     >
                         View code
                     </a>
-                    <a className={style.site}>Visit site</a>
+                    {/* <button href="" className={style.siteButton}>
+                        Visit site
+                    </button> */}
                 </div>
             </div>
         </section>

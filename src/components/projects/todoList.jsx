@@ -4,15 +4,13 @@ import todoList from "../../img/projects-img/ToDo List.jpg";
 
 const TodoList = () => {
     return (
-        <section className={style.project2}>
+        <section className={style.project1}>
             <div className={style.projectImgDiv}>
-                <a>
-                    <img
-                        src={todoList}
-                        alt="countdown_timer"
-                        className={style.projectImg}
-                    />
-                </a>
+                <img
+                    src={todoList}
+                    alt="countdown_timer"
+                    className={style.projectImgNotDeployed}
+                />
             </div>
             <div className={style.textAndBtnR}>
                 <div className={style.projectTextCont}>
@@ -40,7 +38,7 @@ const TodoList = () => {
                     >
                         View code
                     </a>
-                    <a className={style.site}>Visit site</a>
+                    {/* <a className={style.site}>Visit site</a> */}
                 </div>
             </div>
         </section>

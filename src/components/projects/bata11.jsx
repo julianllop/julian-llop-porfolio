@@ -1,17 +1,18 @@
+import React from "react";
 import style from "./projects.module.css";
-import recipes from "../../img/projects-img/recipes.jpg";
+import bata11 from "../../img/projects-img/Bata11.jpg";
 
-const Recipes = () => {
+export default function Bata11() {
     return (
         <section className={style.project2}>
             <div className={style.projectImgDiv}>
                 <a
-                    href="https://recipes-api-jl.onrender.com"
+                    href="https://batallon11cordoba.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <img
-                        src={recipes}
+                        src={bata11}
                         alt="countdown_timer"
                         className={style.projectImg}
                     />
@@ -19,26 +20,27 @@ const Recipes = () => {
             </div>
             <div className={style.textAndBtnR}>
                 <div className={style.projectTextCont}>
-                    <h5 className={style.dev}>Fullstack</h5>
+                    <h5 className={style.dev}>Frontend</h5>
                     <div className={style.titleDiv}>
                         <h1 className={style.projectTitle}>
-                            Recipes Catalog API
+                            Hair salon eCommerce
                         </h1>
-                        <h5>(API currently not working)</h5>
+                        <h5>(Still on developement)</h5>
                     </div>
                     <p className={style.projectText}>
-                        Dynamic recipe catalog that can be filtered by diet
-                        type, health score, and alphabetically. The recipes are
-                        sourced from an API, enabling users to explore a wide
-                        range of culinary delights. Additionally, it allows
-                        users to create and save new recipes in a secure
-                        database, making it a personalized platform for culinary
-                        enthusiasts.
+                        This is a website created for a youth group that I am
+                        part of, called "Exploradores Argentinos de Don Bosco."
+                        This group is dedicated to forming good Christians and
+                        honorable citizens. The project was developed in
+                        collaboration with Eloy Rocha (another member of this
+                        group) with the intention of showcasing the activities
+                        we carry out, telling our story, and adding a
+                        registration section for new members.
                     </p>
                 </div>
                 <div className={style.projectButtons}>
                     <a
-                        href="https://github.com/julianllop/RecipesAPI"
+                        href="https://github.com/julianllop/HairSalon-eCommerce"
                         className={style.code}
                         target="_blank"
                         rel="noreferrer"
@@ -46,10 +48,10 @@ const Recipes = () => {
                         View code
                     </a>
                     <a
-                        href="https://www.linkedin.com/posts/julianllop_fullstackdeveloper-henrybootcamp-passionincode-activity-7094302319638368256-0rCE?utm_source=share&utm_medium=member_desktop"
-                        className={style.site}
+                        href="https://batallon11cordoba.onrender.com/"
                         target="_blank"
                         rel="noreferrer"
+                        className={style.site}
                     >
                         Visit site
                     </a>
@@ -57,6 +59,4 @@ const Recipes = () => {
             </div>
         </section>
     );
-};
-
-export default Recipes;
+}

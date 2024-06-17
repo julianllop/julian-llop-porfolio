@@ -3,7 +3,7 @@ import timer from "../../img/projects-img/timer.jpg";
 
 const CountdownTimer = () => {
     return (
-        <section className={style.project2}>
+        <section className={style.project1}>
             <div className={style.projectImgDiv}>
                 <a
                     href="https://julianllop.github.io/countdown_timer/"

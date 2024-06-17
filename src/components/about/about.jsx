@@ -16,11 +16,12 @@ const About = () => {
             <div className={style.aboutText}>
                 <h1 className={style.h1}>ABOUT ME</h1>
                 <p>
-                    Fullstack Developer, a Henry graduate, excited to offer my
-                    professional services to those in need. With expertise in
-                    both frontend and backend development, I am dedicated to
-                    delivering high quality and innovative solutions. Let's
-                    collaborate and create something exceptional together!
+                    3 years studying / practicing Fullstack Developement,
+                    excited to offer my professional services to those in need.
+                    With expertise in both frontend and backend development, I
+                    am dedicated to delivering high quality and innovative
+                    solutions. Let's collaborate and create something
+                    exceptional together!
                 </p>
             </div>
         </div>
