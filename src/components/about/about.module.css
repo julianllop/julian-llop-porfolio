@@ -22,7 +22,7 @@
     align-content: center;
     justify-content: center;
     width: 50%;
-    background: no-repeat center/100% url("../../img/pm-standard-gradient.avif");
+
     background-color: transparent;
 }
 
@@ -37,9 +37,7 @@
     color: #030303a2;
 }
 
-
 @media screen and (min-width: 280px) {
-
     .h1 {
         margin: 0;
         padding: 0;
@@ -77,8 +75,6 @@
         align-content: center;
         justify-content: center;
         width: 60%;
-        background: no-repeat center/100%
-            url("../../img/pm-standard-gradient.avif");
         background-color: transparent;
     }
 
@@ -98,9 +94,7 @@
     }
 }
 
-
 @media screen and (min-width: 800px) {
-
     .h1 {
         margin: 0;
         padding: 0;
@@ -121,8 +115,6 @@
         align-content: center;
         justify-content: center;
         width: 60%;
-        background: no-repeat center/100%
-            url("../../img/pm-standard-gradient.avif");
         background-color: transparent;
     }
 
@@ -134,7 +126,7 @@
         flex-direction: row;
         /* gap: 50px; */
         width: 80%;
-        height: 350px;
+        height: fit-content;
         background-color: transparent;
 
         .aboutText p {
@@ -142,11 +134,9 @@
             color: #030303a2;
         }
     }
-   
 }
 
 @media screen and (min-width: 1000px) {
-
     .h1 {
         margin: 0;
         padding: 0;
@@ -167,10 +157,10 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
-        /* gap: 50px; */
         width: 70%;
         height: 350px;
         background-color: transparent;
+        margin: 100px 0px 50px 0px;
 
         .aboutText p {
             width: 80%;
@@ -183,9 +173,6 @@
         align-content: center;
         justify-content: center;
         width: 60%;
-        background: no-repeat center/90%
-            url("../../img/pm-standard-gradient.avif");
         background-color: transparent;
     }
-   
 }

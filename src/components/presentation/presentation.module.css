@@ -8,9 +8,6 @@
     justify-content: center;
     gap: 15px;
     width: 50%;
-    height: 1000px;
-    background: no-repeat center/100% url("../../img/pm-standard-gradient.avif");
-    background-color: transparent;
 }
 
 .logo {
@@ -67,16 +64,14 @@
 
 @media screen and (min-width: 280px) {
     .presentation {
-        /* margin-top: 5%; */
+        padding-top: 200px;
+        padding-bottom: 200px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 15px;
         width: 100%;
-        height: 700px;
-        background: no-repeat center/100%
-            url("../../img/pm-standard-gradient.avif");
         background-color: transparent;
     }
 
@@ -141,16 +136,14 @@
     }
 
     .presentation {
-        /* margin-top: 5%; */
+        padding-top: 150px;
+        padding-bottom: 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 15px;
         width: 90%;
-        height: 1000px;
-        background: no-repeat center/60%
-            url("../../img/pm-standard-gradient.avif");
         background-color: transparent;
     }
 }
