@@ -353,10 +353,6 @@ a {
 }
 
 @media screen and (min-width: 800px) {
-    .projects {
-        /* padding-bottom: 220px; */
-    }
-
     .h1 {
         font-size: 3em;
     }
