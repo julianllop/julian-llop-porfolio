@@ -1,17 +1,18 @@
+import React from "react";
 import style from "./projects.module.css";
-import recipes from "../../img/projects-img/recipes.jpg";
+import beers from "../../img//projects-img/BeerTown.jpeg";
 
-const Recipes = () => {
+const BeerTown = () => {
     return (
         <section className={style.project1}>
             <div className={style.projectImgDiv}>
                 <a
-                    href="https://recipes-api-jl.onrender.com"
+                    href="https://beertown.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <img
-                        src={recipes}
+                        src={beers}
                         alt="countdown_timer"
                         className={style.projectImg}
                     />
@@ -21,24 +22,29 @@ const Recipes = () => {
                 <div className={style.projectTextCont}>
                     <h5 className={style.dev}>Fullstack</h5>
                     <div className={style.titleDiv}>
-                        <h1 className={style.projectTitle}>
-                            Recipes Catalog API
-                        </h1>
-                        <h5>(API currently not working)</h5>
+                        <h1 className={style.projectTitle}>Beer Town</h1>
                     </div>
                     <p className={style.projectText}>
-                        Dynamic recipe catalog that can be filtered by diet
-                        type, health score, and alphabetically. The recipes are
-                        sourced from an API, enabling users to explore a wide
-                        range of culinary delights. Additionally, it allows
-                        users to create and save new recipes in a secure
-                        database, making it a personalized platform for culinary
-                        enthusiasts.
+                        This fullstack application was developed to practice
+                        backend sorting and filtering methods, Tailwind CSS, and
+                        Redux Toolkit on the frontend. The application displays
+                        a selection of beers retrieved from the{" "}
+                        <a
+                            href="https://sampleapis.com/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className={style.projectLink}
+                        >
+                            sampleapis.com
+                        </a>{" "}
+                        API. The frontend is built with React and the backend
+                        with Node.js, providing a smooth and efficient user
+                        experience.
                     </p>
                 </div>
                 <div className={style.projectButtons}>
                     <a
-                        href="https://github.com/julianllop/RecipesAPI"
+                        href="https://github.com/julianllop/BeerTown"
                         className={style.code}
                         target="_blank"
                         rel="noreferrer"
@@ -46,10 +52,10 @@ const Recipes = () => {
                         View code
                     </a>
                     <a
-                        href="https://www.linkedin.com/posts/julianllop_fullstackdeveloper-henrybootcamp-passionincode-activity-7094302319638368256-0rCE?utm_source=share&utm_medium=member_desktop"
-                        className={style.site}
+                        href="https://beertown.onrender.com/"
                         target="_blank"
                         rel="noreferrer"
+                        className={style.site}
                     >
                         Visit site
                     </a>
@@ -59,4 +65,4 @@ const Recipes = () => {
     );
 };
 
-export default Recipes;
+export default BeerTown;

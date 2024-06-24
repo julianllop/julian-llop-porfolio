@@ -5,6 +5,7 @@ import Recipes from "./recipes";
 import HairSalon from "./hairSalon";
 import TodoList from "./todoList";
 import Bata11 from "./bata11";
+import BeerTown from "./beerTown";
 
 const Projects = () => {
     return (
@@ -12,6 +13,7 @@ const Projects = () => {
             <h1 className={style.h1}>PROJECTS</h1>
             <HairSalon />
             <Bata11 />
+            <BeerTown />
             <TodoList />
             <Recipes />
             <CountdownTimer />

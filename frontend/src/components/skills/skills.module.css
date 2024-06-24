@@ -39,13 +39,10 @@
     }
 
     .skillsCont {
-        /* padding-left: 65px; */
-        width: 100%;
-        gap: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        gap: 10px;
     }
     .skillsCont img {
         width: 50px;
@@ -60,7 +57,7 @@
         justify-content: space-between;
     }
 
-    .html {
+    /* .html {
         background-color: #ffeabe;
         border-radius: 10px;
         border: solid 1px #ffdd95;
@@ -100,6 +97,41 @@
         border-radius: 10px;
         border: solid 1px #3f60c4ae;
     }
+    .tailwind {
+        background-color: rgb(221, 244, 255);
+        border-radius: 10px;
+        border: solid 1px rgb(56, 189, 249);
+    }
+    .redux {
+        background-color: rgb(236, 223, 255);
+        border-radius: 10px;
+        border: solid 1px rgb(119, 73, 189);
+    }
+    .sass {
+        background-color: rgb(255, 234, 244);
+        border-radius: 10px;
+        border: solid 1px rgb(204, 102, 153);
+    }
+    .git {
+        background-color: rgb(255, 227, 223);
+        border-radius: 10px;
+        border: solid 1px rgb(222, 76, 54);
+    }
+    .postman {
+        background-color: rgb(255, 237, 230);
+        border-radius: 10px;
+        border: solid 1px rgb(238, 109, 63);
+    }
+    .sequelize {
+        background-color: rgb(234, 249, 255);
+        border-radius: 10px;
+        border: solid 1px rgb(2, 175, 239);
+    }
+    .jwt {
+        background-color: rgb(243, 255, 252);
+        border-radius: 10px;
+        border: solid 1px rgb(251, 1, 91);
+    } */
 }
 
 @media screen and (min-width: 650px) {
@@ -123,7 +155,10 @@
     }
 
     .skillsCont {
-        gap: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        gap: 15px;
     }
 
     .skillsCont img {
@@ -150,7 +185,10 @@
     }
 
     .skillsCont {
-        gap: 80px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        gap: 20px;
     }
 
     .skillsCont img {

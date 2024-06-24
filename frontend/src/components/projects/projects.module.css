@@ -4,6 +4,10 @@ a {
     cursor: pointer;
 }
 
+.projectLink {
+    color: #ee1782;
+}
+
 .titleDiv {
     display: flex;
     align-items: baseline;

@@ -4,7 +4,7 @@ import todoList from "../../img/projects-img/ToDo List.jpg";
 
 const TodoList = () => {
     return (
-        <section className={style.project1}>
+        <section className={style.project2}>
             <div className={style.projectImgDiv}>
                 <img
                     src={todoList}
