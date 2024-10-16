@@ -7,13 +7,13 @@ const BeerTown = () => {
         <section className={style.project1}>
             <div className={style.projectImgDiv}>
                 <a
-                    href="https://beertown.onrender.com/"
+                    href="https://beer-town.vercel.app"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <img
                         src={beers}
-                        alt="countdown_timer"
+                        alt="beer-town"
                         className={style.projectImg}
                     />
                 </a>
@@ -52,7 +52,7 @@ const BeerTown = () => {
                         View code
                     </a>
                     <a
-                        href="https://beertown.onrender.com/"
+                        href="https://beer-town.vercel.app"
                         target="_blank"
                         rel="noreferrer"
                         className={style.site}
