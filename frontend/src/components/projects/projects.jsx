@@ -14,9 +14,9 @@ const Projects = () => {
             <HairSalon />
             <Bata11 />
             <BeerTown />
-            <TodoList />
+            {/* <TodoList /> */}
             <Recipes />
-            <CountdownTimer />
+            {/* <CountdownTimer /> */}
         </div>
     );
 };
